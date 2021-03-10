@@ -7,9 +7,7 @@
 
 # Stacks
 
-<img src="./public/react.svg" width="50" />
-<img src="./public/sass.svg" width="50" />
-<img src="./public/typescript.svg" width="50" />
+<img src="./public/react.svg" width="50" /> <img src="./public/sass.svg" width="50" /> <img src="./public/typescript.svg" width="50" />
 
 <br />
 <br />
