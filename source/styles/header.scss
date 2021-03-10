@@ -1,0 +1,45 @@
+header {
+  display: grid;
+  grid-template-columns: 150px repeat(2, 1fr);
+  gap: 20px;
+
+  img {
+    border-radius: 24px;
+  }
+
+  .details {
+    .login {
+      margin-bottom: 15px;
+
+      h4 {
+        font-size: 1.5rem;
+      }
+
+      small {
+        font-weight: 600;
+        filter: brightness(0.6);
+      }
+    }
+
+    p {
+      line-height: 1.5;
+    }
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    span {
+      display: block;
+
+      &:last-child {
+        margin-top: 8px;
+        font-size: 3rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

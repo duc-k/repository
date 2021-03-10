@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto';
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  padding: 3rem;
+}
